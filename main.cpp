@@ -8,6 +8,8 @@ struct palabrabuscada {
   char *palabra;
   int   cantidad;
 };
+//fuente
+//https://stackoverflow.com/questions/4892680/sorting-a-vector-of-structs
 
 // función de comparación:
 bool compareByLength(const palabrabuscada &a, const palabrabuscada &b)
